@@ -23,15 +23,15 @@ class Person:
             print("Usia tidak valid!")
 
 # Membuat objek baru
-person1 = Person("Abdul Hakim", 25)
+person1 = Person("Pradana", 19)
 
 # Mengakses variabel private menggunakan getter
 print("Nama:", person1.get_name())
 print("Usia:", person1.get_age())
 
 # Mengubah variabel private menggunakan setter
-person1.set_name("Ryan Hakim")
-person1.set_age(30)
+person1.set_name("Budi")
+person1.set_age(19)
 
 # Menampilkan hasil setelah perubahan
 print("Nama baru:", person1.get_name())
